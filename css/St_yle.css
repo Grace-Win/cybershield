@@ -1,0 +1,302 @@
+ *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+/*  overflow-x: hidden;*/
+ /* color: white;
+  box-sizing: border-box;
+  font-family: 'Arial', Sans-serif;*/
+}
+body{
+/*  background: #f2f2f2;*/
+    font-family: 'Arial', Sans-serif;
+    background-color: #BED7DC;
+    overflow-x: hidden;
+}
+nav{
+  background: #8644A2;
+  height: 80px;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+}
+.logo{
+  width: 93px;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+}
+nav li{
+  display: inline-block;
+  margin: 0 8px;
+ line-height: 80px;
+}
+nav a{
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #8644A2;
+  min-width: 160px;
+  z-index: 1;
+  /*height: 50vh;
+  width: 5px;*/
+}
+.dropdown-content a{
+  color: white;
+  padding: 0px 0px;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+}
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
+
+  .tips{
+        padding-left: 10vh;
+        width: 100%;
+        height: 20vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+ 
+    .tips:hover{
+        background-color: #5CE1E6;
+    }
+ 
+    .top{
+        background-color: #885DDF;
+        padding-top: 3vh;
+        padding-left: 2vh;
+        padding-bottom: 2vh;
+        width: 98%;
+        padding-right: 2vh;
+    }
+ 
+    .end{
+        width: 98%%;
+        background-color: #373737;
+        padding-top: 3vh;
+        height: 13vh;
+        color: white;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+
+/*Risk of using internet*/
+.svt{
+        padding-left: 5vh;
+        width: 100%;
+        height: 20vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .svt:hover{
+        background-color: #B5C18E;
+    }
+    .jww:hover{
+        background-color: #F5DAD2;
+    }
+
+    .jww{
+/*        background-color: #885DDF;*/
+        padding-top: 3vh;
+        padding-left: 5vh;
+        padding-bottom: 2vh;
+        width: 98%;
+        font-family: cursive;
+/*        padding-right: 10vh;*/
+/*        padding-right: 2vh;*/
+}
+h1{
+    text-align: center;
+}
+.jeon{
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+/*    Types of online scams avoid*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+ 
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+ 
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+ 
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+ 
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+ 
+.flip-box-back {
+  background-color:#F9B572;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: cursive;
+}
+/*.scams{
+    margin-bottom: 3px;
+}*/
+ 
+/*second*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+ 
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+ 
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+ 
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+ 
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+ 
+.flip-box-back {
+  background-color:#F9B572;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: cursive;
+}
+ 
+.parent{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+ 
+
+/*Footer*/
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 40px 0 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.footer-section .social-links a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+.citation{
+  font-family: cursive;
+}
